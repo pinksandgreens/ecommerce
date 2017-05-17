@@ -1,4 +1,4 @@
-# Common ecommerce analytics
+# ecommerce analytics
 
 This is a set of templated ecommerce analytics for use in other dbt packages. As long as your data has been modeled in the way this package expects, you can get a series of battle-tested reports for free.
 
