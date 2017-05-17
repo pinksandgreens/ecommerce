@@ -11,10 +11,8 @@ data-paths: ["data"]
 models:
     ecommerce:
         vars:
-            customers_table: dbt_jthandy.customers
-            orders_table: dbt_jthandy.orders
-            order_items_table: dbt_jthandy.order_items
-            skus_table: dbt_jthandy.skus
-            products_table: dbt_jthandy.products
-
-profile: metrograph
+            customers_table: #schema.table
+            orders_table: #schema.table
+            order_items_table: #schema.table
+            skus_table: #schema.table
+            products_table: #schema.table
