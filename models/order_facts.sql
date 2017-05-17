@@ -59,8 +59,7 @@ joined as (
         customers.first_purchase_date as customer_first_purchase_date,
         customers.lifetime_orders as customer_lifetime_orders,
         customers.lifetime_revenue as customer_lifetime_revenue,
-        products.name as product_name,
-        skus.showtime
+        products.name as product_name
 
     from items
     left outer join orders on items.order_id = orders.id
